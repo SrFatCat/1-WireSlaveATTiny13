@@ -4,7 +4,7 @@ It is based OneWireSlave v1.0 by Alexander Gordeyev
 It is based on Jim's Studt OneWire library v2.0
 
 ## Features
-- Basic protocol handling, reading/writing timeslots, 
+- Basic protocol handling, reading/writing timeslots 
 - Search ROM command (may be disabled)
 - Match ROM command  
 - Write ROM (like iButton) command (may be disabled)
