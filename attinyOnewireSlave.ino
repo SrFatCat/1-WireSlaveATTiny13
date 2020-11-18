@@ -12,7 +12,6 @@
 
 #define WRITE_STATUS 0x55
 #define READ_STATUS  0xAA
-#define ENABLE_WRITE_ID  0xD1
 
 #define LED_BIT _BV(PB4)
 #define INPUT1_BIT _BV(PB1)
@@ -23,7 +22,7 @@ int main(){
     OneWireSlave wire;
 
     wire.setRom();
-    PORTB = 0xFF;//|= LED_BIT;
+    PORTB = 0xFF;
     DDRB |= LED_BIT; // OUTPUT
     while(1){
         if (!wire.waitForRequest()) continue;
