@@ -1,8 +1,7 @@
 {
-    "board": "MicroCore:avr:attiny13",
+    "board": "MicroCore:avr:13",
     "output": ".output",
-    "configuration": "clock=9M6,BOD=2v7,timing=micros_disabled",
-    "programmer": "USBasp",
     "sketch": "attinyOnewireSlave.ino",
-    "port": "COM1"
+    "port": "COM20",
+    "configuration": "clock=9M6,eeprom=keep,BOD=2v7,timing=micros_disabled"
 }
