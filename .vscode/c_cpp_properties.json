@@ -4,7 +4,6 @@
             "name": "Win32",
             "includePath": [
                 "C:\\Users\\Alex\\AppData\\Local\\Arduino15\\packages\\MicroCore\\hardware\\avr\\1.0.7\\**",
-                "C:\\Users\\Alex\\AppData\\Local\\Arduino15\\packages\\MicroCore\\hardware\\avr\\1.0.6\\**",
                 "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include\\**",
                 "C:\\Users\\Alex\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
                 "C:\\Users\\Alex\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
