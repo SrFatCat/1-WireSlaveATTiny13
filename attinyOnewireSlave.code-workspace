@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "C:\\Users\\Alex\\Documents\\ArduinoProject\\!ESP8266\\1-wireTinyTest"
-		},
-		{
-			"path": "C:\\Users\\Alex\\Documents\\ArduinoProject\\avrOnewireSlave"
 		}
 	],
 	"settings": {}

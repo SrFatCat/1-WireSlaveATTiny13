@@ -1,7 +1,7 @@
 {
-    "board": "MicroCore:avr:13",
+    "board": "esp8266:esp8266:nodemcuv2",
     "output": ".output",
-    "sketch": "attinyOnewireSlave.ino",
+    "sketch": "1-wireTinyTest.ino",
     "port": "COM20",
-    "configuration": "clock=9M6,eeprom=keep,BOD=2v7,timing=micros_disabled"
+    "configuration": "xtal=80,vt=flash,exception=legacy,ssl=all,eesz=4M1M,led=2,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=921600"
 }

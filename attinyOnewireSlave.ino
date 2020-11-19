@@ -2,10 +2,10 @@
 
 //#define OW_DISABLE_SEARCH
 //#define OW_DISABLE_WRITE_ID
-#define OW_FLEX_ADDRESS
+#define OW_FLEX_ADDRESS // if this defined - the address of slave save in EEPROM
 #define OW_PIN PB3
 #ifndef OW_FLEX_ADDRESS
-#define OW_ADDR 0x01, 0xAD, 0xDA, 0xCE, 0x0F, 0x00, 0x00, 0xBB
+#define OW_ADDR 0x01, 0xAD, 0xDA, 0xCE, 0x0F, 0x00, 0x00, 0xBB // if not OW_FLEX_ADDRESS - the fix address of slave save in sketch
 #endif
 
 #include "OneWireSlave.h"
